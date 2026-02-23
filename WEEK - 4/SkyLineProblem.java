@@ -8,7 +8,6 @@ class Building {
         right = r;
     }
 }
-
 class Strip {
     int left, ht;
     Strip(int l, int h) {

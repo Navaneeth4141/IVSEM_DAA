@@ -20,7 +20,7 @@ class Squares{
             hzntl++;
             i++;
         }
-        while(j<n){
+        while(j <n){
             res+=Y[j]*hzntl;
             vert++;
             j++;

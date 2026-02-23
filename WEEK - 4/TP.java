@@ -63,9 +63,7 @@ static void tile(int n, int x, int y)
 
     cnt = t;
 }
-
-public static void main(String[] args)
-{
+public static void main(String[] args){
     size_of_grid = 8;
     a = 0;
     b = 0;

@@ -5,7 +5,7 @@ public class GFG{
         Collections.sort(mice);
         Collections.sort(holes);
         int max=0;
-        for(int i=0;i<mice.size();i++)
+        for(int i=0;i< mice.size();i++)
             max=Math.max(max,Math.abs(mice.get(i)-holes.get(i)));
         return max;
     }

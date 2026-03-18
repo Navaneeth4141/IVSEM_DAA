@@ -10,9 +10,9 @@ public class MiceHoles{
         return max;
     }
     public static void main(String[] args){
-        GFG gfg=new GFG();
+        MiceHoles obj = new MiceHoles();
         ArrayList<Integer> mice=new ArrayList<>(Arrays.asList(4,-4,2));
         ArrayList<Integer> holes=new ArrayList<>(Arrays.asList(4,0,5));
-        System.out.println("The last mouse gets into the hole in time: "+gfg.assignHole(mice,holes));
+        System.out.println("The last mouse gets into the hole in time: "+obj.assignHole(mice,holes));
     }
 }
